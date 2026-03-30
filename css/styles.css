@@ -1172,12 +1172,9 @@ color: #333!important; /* testo grigio scuro */
 }
 /*foto contatti*/
 #contatti {
-  background-image: 
+  background: 
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-   background-image: url("/images/bg.jpg");
+    url("../images/contatti-bg.jpg") !important;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding: 80px 0;
-  color: #fff;
 }
