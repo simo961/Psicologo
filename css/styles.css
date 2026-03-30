@@ -1172,9 +1172,6 @@ color: #333!important; /* testo grigio scuro */
 }
 /*foto contatti*/
 #contatti {
-  background: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("../images/bg.jpg") !important;
+  background: url("../images/bg.jpg") no-repeat center center !important;
   background-size: cover;
-  background-position: center;
 }
