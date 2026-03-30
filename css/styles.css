@@ -1170,3 +1170,14 @@ color: #333!important; /* testo grigio scuro */
 .equilibrio-img {
   object-position: center 65%; /* sposta più in basso */
 }
+/*foto contatti*/
+#contatti {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  color: #fff;
+}
