@@ -1171,3 +1171,7 @@ color: #333!important; /* testo grigio scuro */
   object-position: center 65%; /* sposta più in basso */
 }
 
+/*foto contatti*/
+#contatti {
+  background: red !important;
+}
