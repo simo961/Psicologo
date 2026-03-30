@@ -1170,8 +1170,4 @@ color: #333!important; /* testo grigio scuro */
 .equilibrio-img {
   object-position: center 65%; /* sposta più in basso */
 }
-/*foto contatti*/
-#contatti {
-  background: url("../images/bg.jpg") no-repeat center center !important;
-  background-size: cover;
-}
+
