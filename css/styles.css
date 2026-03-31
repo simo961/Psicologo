@@ -1206,42 +1206,26 @@ color: #333!important; /* testo grigio scuro */
   }
 }
 
-/* Desktop: immagine in basso accanto al testo */
+/* Desktop: immagine in basso a destra accanto al testo */
 @media (min-width: 768px) {
-  #chisono .col-md-4 {
-    display: flex;
-    align-items: flex-end; /* immagine in basso */
-  }
-
-  #chisono .col-md-4 img {
-    width: 100%;
+  .chisono-img {
+    display: block;
+    width: 100%;       /* riempie la colonna */
+    max-width: 250px;  /* regola a tuo piacere */
     height: auto;
+    margin-top: 20px;
+    float: right;      /* mantiene desktop come ora */
   }
 }
 
-/* Mobile: max-width 767px */
+/* Mobile: immagine subito sotto nome/professione */
 @media (max-width: 767px) {
-  #chisono .row {
-    display: flex;
-    flex-direction: column; /* colonna verticale */
-  }
-
-  /* Colonna testo prima */
-  #chisono .col-md-8 {
-    order: 1;
-  }
-
-  /* Colonna immagine dopo il nome/professione */
-  #chisono .col-md-4 {
-    order: 2;
-    width: 100%;
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  #chisono .col-md-4 img {
-    width: 80%;       /* regolabile */
-    max-width: 200px; /* opzionale */
+  .chisono-img {
+    float: none;       /* rimuove float */
+    display: block;
+    width: 80%;        /* regola dimensione su mobile */
+    max-width: 200px;
     height: auto;
+    margin: 10px auto; /* centra immagine */
   }
 }
