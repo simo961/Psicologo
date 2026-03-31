@@ -1231,17 +1231,17 @@ color: #333!important; /* testo grigio scuro */
     order: 1;
   }
 
-  /* Colonna immagine dopo il testo */
+  /* Colonna immagine dopo il nome/professione */
   #chisono .col-md-4 {
     order: 2;
-    width: 100%;        /* tutta larghezza */
-    text-align: center; /* centra immagine */
-    margin-top: 15px;   /* spazio sopra immagine */
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
   }
 
   #chisono .col-md-4 img {
-    width: auto;        /* mantiene proporzioni */
-    max-width: 80%;     /* puoi regolare */
+    width: 80%;       /* regolabile */
+    max-width: 200px; /* opzionale */
     height: auto;
   }
 }
