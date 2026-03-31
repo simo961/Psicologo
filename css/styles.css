@@ -1171,6 +1171,10 @@ color: #333!important; /* testo grigio scuro */
   object-position: center 65%; /* sposta più in basso */
 }
 /*foto profilo*/
+#chisono .row {
+  display: flex;
+}
+
 #chisono .col-md-4 {
   display: flex;
   align-items: flex-end; /* immagine in basso */
