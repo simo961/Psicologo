@@ -1219,15 +1219,17 @@ color: #333!important; /* testo grigio scuro */
   }
 }
 
-/* Mobile: immagine normale in cima, larghezza piena */
+/* Mobile: immagine sopra il testo, larga tutta la colonna */
 @media (max-width: 767px) {
   #chisono .col-md-4 {
-    display: block;   /* annulla flex */
-    margin-bottom: 15px; /* spazio sotto immagine */
+    display: block;          /* reset flex */
+    min-height: auto;        /* reset altezza */
+    margin-bottom: 15px;     /* spazio sotto immagine */
+    text-align: center;      /* centra immagine orizzontalmente */
   }
 
   #chisono .col-md-4 img {
-    width: 100%;     /* tutta la larghezza della colonna */
+    width: 100%;
     height: auto;
   }
 }
