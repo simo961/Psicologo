@@ -1219,17 +1219,29 @@ color: #333!important; /* testo grigio scuro */
   }
 }
 
-/* Mobile: immagine sopra il testo, larga tutta la colonna */
+/* Mobile: max-width 767px */
 @media (max-width: 767px) {
+  #chisono .row {
+    display: flex;
+    flex-direction: column; /* colonna verticale */
+  }
+
+  /* Colonna testo prima */
+  #chisono .col-md-8 {
+    order: 1;
+  }
+
+  /* Colonna immagine dopo il testo */
   #chisono .col-md-4 {
-    display: block;          /* reset flex */
-    min-height: auto;        /* reset altezza */
-    margin-bottom: 15px;     /* spazio sotto immagine */
-    text-align: center;      /* centra immagine orizzontalmente */
+    order: 2;
+    width: 100%;        /* tutta larghezza */
+    text-align: center; /* centra immagine */
+    margin-top: 15px;   /* spazio sopra immagine */
   }
 
   #chisono .col-md-4 img {
-    width: 100%;
+    width: auto;        /* mantiene proporzioni */
+    max-width: 80%;     /* puoi regolare */
     height: auto;
   }
 }
