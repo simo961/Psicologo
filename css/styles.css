@@ -1218,30 +1218,27 @@ color: #333!important; /* testo grigio scuro */
   }
 }
 
-/* Mobile */
+/* Mobile: immagine sopra tutto */
 @media (max-width: 767px) {
-
-  /* Posizioniamo l’immagine sopra tutto */
-  #chisono {
-    position: relative;
+  #chisono .row {
+    display: flex;
+    flex-direction: column; /* vertical stack */
   }
 
   #chisono .col-md-4.tileBox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;      /* tutta larghezza */
-    z-index: 10;
+    order: 0;          /* prima dell’altra colonna */
+    width: 100%;
     text-align: center;
   }
 
   #chisono .col-md-4.tileBox img {
-    width: 100%;
+    width: 100%;       /* tutta larghezza */
     height: auto;
   }
 
-  /* Spingiamo la colonna testo sotto l’immagine */
   #chisono .col-md-8.tileBox {
-    margin-top: calc(100% * 0.6); /* regolabile in base all’altezza immagine */
+    order: 1;          /* testo sotto immagine */
+    width: 100%;
+    margin-top: 15px;  /* piccolo spazio tra immagine e testo */
   }
 }
