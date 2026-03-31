@@ -1206,16 +1206,28 @@ color: #333!important; /* testo grigio scuro */
   }
 }
 
-/* Mobile: immagine normale in cima, a larghezza piena */
-@media (max-width: 767px) {
+/* Desktop: immagine in basso accanto al testo */
+@media (min-width: 768px) {
   #chisono .col-md-4 {
-    display: block;
-    align-items: initial; /* reset flex */
-    margin-bottom: 15px; /* spazio sotto per il testo */
+    display: flex;
+    align-items: flex-end; /* immagine in basso */
   }
 
   #chisono .col-md-4 img {
     width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile: immagine normale in cima, larghezza piena */
+@media (max-width: 767px) {
+  #chisono .col-md-4 {
+    display: block;   /* annulla flex */
+    margin-bottom: 15px; /* spazio sotto immagine */
+  }
+
+  #chisono .col-md-4 img {
+    width: 100%;     /* tutta la larghezza della colonna */
     height: auto;
   }
 }
