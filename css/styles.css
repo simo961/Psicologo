@@ -1171,13 +1171,12 @@ color: #333!important; /* testo grigio scuro */
   object-position: center 65%; /* sposta più in basso */
 }
 /*foto profilo*/
-.img-col {
+#chisono .col-md-4 {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* immagine in basso */
+  align-items: flex-end; /* immagine in basso */
 }
 
-.img-col img {
+#chisono .col-md-4 img {
   width: 100%;
   height: auto;
 }
