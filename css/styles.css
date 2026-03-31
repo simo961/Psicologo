@@ -1184,3 +1184,12 @@ color: #333!important; /* testo grigio scuro */
   width: 100%;
   height: auto;
 }
+/* Ambiti di intervento */
+#ambiti h2 {
+  color: #4A90C2; /* blu professionale */
+}
+
+/* Il mio approccio */
+#approccio h2 {
+  color: #4A90C2; /* blu professionale */
+}
