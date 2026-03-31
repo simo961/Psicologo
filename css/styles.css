@@ -1218,14 +1218,30 @@ color: #333!important; /* testo grigio scuro */
   }
 }
 
-/* Mobile: immagine subito sotto nome/professione */
+/* Mobile */
 @media (max-width: 767px) {
-  .chisono-img {
-    float: none;       /* rimuove float */
-    display: block;
-    width: 80%;        /* regola dimensione su mobile */
-    max-width: 200px;
+
+  /* Posizioniamo l’immagine sopra tutto */
+  #chisono {
+    position: relative;
+  }
+
+  #chisono .col-md-4.tileBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;      /* tutta larghezza */
+    z-index: 10;
+    text-align: center;
+  }
+
+  #chisono .col-md-4.tileBox img {
+    width: 100%;
     height: auto;
-    margin: 10px auto; /* centra immagine */
+  }
+
+  /* Spingiamo la colonna testo sotto l’immagine */
+  #chisono .col-md-8.tileBox {
+    margin-top: calc(100% * 0.6); /* regolabile in base all’altezza immagine */
   }
 }
