@@ -1170,3 +1170,14 @@ color: #333!important; /* testo grigio scuro */
 .equilibrio-img {
   object-position: center 65%; /* sposta più in basso */
 }
+/*foto profilo*/
+.img-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* immagine in basso */
+}
+
+.img-col img {
+  width: 100%;
+  height: auto;
+}
