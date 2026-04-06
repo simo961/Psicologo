@@ -1250,3 +1250,9 @@ color: #333!important; /* testo grigio scuro */
   background-repeat: no-repeat;
   background-color: transparent !important;
 }
+#contatti {
+  background-image: url("../images/bg.jpg");
+  background-size: 100%;       /* usa la larghezza reale */
+  background-position: center;
+  background-repeat: no-repeat;
+}
