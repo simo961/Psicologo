@@ -1242,3 +1242,11 @@ color: #333!important; /* testo grigio scuro */
     margin-top: 15px;  /* piccolo spazio tra immagine e testo */
   }
 }
+/* provaimmaginecontatti */
+#contatti {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent !important;
+}
