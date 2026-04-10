@@ -1258,7 +1258,6 @@ color: #333!important; /* testo grigio scuro */
 }
 
 .nav-logo {
-  width: 38px;
-  height: 38px;
-  object-fit: contain;
+  width: 55px;
+  height: auto;
 }
