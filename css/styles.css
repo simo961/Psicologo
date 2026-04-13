@@ -1261,3 +1261,10 @@ color: #333!important; /* testo grigio scuro */
   width: 60px;
   height: auto;
 }
+/* trento */
+.trento {
+  color: #5E5E5E;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.9;
+}
