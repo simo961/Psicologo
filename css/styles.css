@@ -1268,14 +1268,22 @@ color: #333!important; /* testo grigio scuro */
 /* ===== super prova ===== */
 @media (max-width: 768px) {
 
-  /* AUMENTA SOLO LO SPAZIO DEL BANNER */
+  /* leggero aumento spazio */
   .banner-container {
-    min-height: 110vh;
+    min-height: 95vh;
   }
 
+  /* il contenuto deve “espandere” il contenitore */
   .banner-content {
-    padding-top: 120px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  /* IMPORTANTISSIMO: la foto segue il contenitore */
+  .banner-container img {
+    height: auto !important;
+    min-height: 95vh;
+    object-fit: cover;
   }
 
 }
