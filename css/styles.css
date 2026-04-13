@@ -1313,3 +1313,11 @@ color: #333!important; /* testo grigio scuro */
   }
 
 }
+@media (max-width: 768px) {
+
+  .banner-container img {
+    object-fit: cover;
+    transform: scale(0.9);
+  }
+
+}
