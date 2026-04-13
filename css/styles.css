@@ -1266,4 +1266,16 @@ color: #333!important; /* testo grigio scuro */
   color: #aeaeae;
 }
 /* ===== super prova ===== */
+@media (max-width: 768px) {
 
+  /* AUMENTA SOLO LO SPAZIO DEL BANNER */
+  .banner-container {
+    min-height: 110vh;
+  }
+
+  .banner-content {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+}
