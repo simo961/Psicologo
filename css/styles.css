@@ -1313,3 +1313,25 @@ color: #333!important; /* testo grigio scuro */
   }
 
 }
+@media (max-width: 768px) {
+
+  .heroText h2 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .caption {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .contatti {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .heroText {
+    text-align: center;
+  }
+
+}
