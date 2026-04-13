@@ -1312,5 +1312,32 @@ color: #333!important; /* testo grigio scuro */
   .contatti a {
     font-size: 12px;
   }
+/* ===== per cell piu piccoli barra ===== */
+}
+@media (max-width: 380px) {
+
+  /* riduce altezza barra */
+  .navbar {
+    min-height: 50px;
+  }
+
+  /* logo / nome */
+  .navbar-brand {
+    font-size: 16px;
+    padding: 10px 10px;
+    line-height: 1.2;
+  }
+
+  /* se hai immagine logo */
+  .navbar-brand img {
+    height: 30px;
+    max-height: 30px;
+  }
+
+  /* bottone menu (hamburger) */
+  .navbar-toggle {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 
 }
