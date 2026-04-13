@@ -1269,16 +1269,17 @@ color: #333!important; /* testo grigio scuro */
 @media (max-width: 768px) {
 
   .banner-content {
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 85px;
+    padding-bottom: 50px;
   }
 
   .heroText {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
 
   .contatti {
-    margin-top: 8px;
+    margin-top: 12px;
+    line-height: 1.5;
   }
 
 }
