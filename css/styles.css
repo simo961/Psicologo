@@ -1266,4 +1266,17 @@ color: #333!important; /* testo grigio scuro */
   color: #aeaeae;
 }
 /* ===== super prova ===== */
+.contatti {
+  margin-top: 15px;
+}
 
+.info-line {
+  margin: 6px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.trento {
+  color: #4A4A4A;
+  font-weight: 500;
+}
