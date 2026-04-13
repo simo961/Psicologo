@@ -1284,8 +1284,9 @@ color: #333!important; /* testo grigio scuro */
 /* ===== alzo di poco ===== */
 @media (max-width: 768px) {
 
-  .heroText h2 {
-    margin-top: -10px;
+  .heroText {
+    position: relative;
+    top: -15px;
   }
 
 }
