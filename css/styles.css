@@ -1268,18 +1268,28 @@ color: #333!important; /* testo grigio scuro */
 /* ===== super prova ===== */
 @media (max-width: 768px) {
 
+  /* il contenitore può crescere in base al contenuto */
+  .banner-container {
+    height: auto !important;
+    min-height: 100vh;
+  }
+
+  /* forza il blocco a non tagliare contenuti */
   .banner-content {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
+  /* evita che il testo esca o venga tagliato */
   .heroText {
-    margin-bottom: 12px;
+    position: relative !important;
+    z-index: 2;
   }
 
+  /* migliora leggibilità contatti */
   .contatti {
-    margin-top: 12px;
-    line-height: 1.5;
+    margin-top: 15px;
+    line-height: 1.6;
   }
 
 }
