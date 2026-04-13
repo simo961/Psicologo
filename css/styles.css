@@ -1266,4 +1266,24 @@ color: #333!important; /* testo grigio scuro */
   color: #aeaeae;
 }
 /* ===== super prova ===== */
+@media (max-width: 768px) {
 
+  /* niente vh → evita bug iPhone */
+  .banner-container {
+    min-height: unset;
+  }
+
+  /* spazio controllato e stabile */
+  .banner-content {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  /* immagine si adatta senza forzature */
+  .banner-container img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+}
