@@ -1280,3 +1280,12 @@ color: #333!important; /* testo grigio scuro */
   color: #aeaeae;
   font-weight: 500;
 }
+
+/* ===== alzo di poco ===== */
+@media (max-width: 768px) {
+
+  .heroText h2 {
+    margin-top: -10px;
+  }
+
+}
