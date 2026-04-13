@@ -1261,3 +1261,54 @@ color: #333!important; /* testo grigio scuro */
   width: 60px;
   height: auto;
 }
+/* ===== FIX HERO TEXT (nome + contatti) ===== */
+
+.heroText {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Spaziature */
+.heroText h2 {
+  margin-bottom: 10px;
+}
+
+.caption {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contatti {
+  margin-top: 10px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.contatti a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
+  .heroText {
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+
+  .heroText h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .caption {
+    font-size: 14px;
+  }
+
+  .contatti {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
