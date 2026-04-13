@@ -1290,3 +1290,27 @@ color: #333!important; /* testo grigio scuro */
   }
 
 }
+/* ===== per cell piu piccoli ===== */
+@media (max-width: 380px) {
+
+  .heroText {
+    top: -30px; /* meno aggressivo del -28 */
+  }
+
+  .heroText h2 {
+    font-size: 22px;
+  }
+
+  .caption {
+    font-size: 13px;
+  }
+
+  .info-line {
+    font-size: 13px;
+  }
+
+  .contatti a {
+    font-size: 12px;
+  }
+
+}
